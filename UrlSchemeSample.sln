@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlSchemeSample", "UrlSchem
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UrlSchemeSampleSetup", "UrlSchemeSampleSetup\UrlSchemeSampleSetup.vdproj", "{2FBE8BF2-A56F-4325-9DDB-47A328E7B307}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{5AFE82C8-84BA-459E-9DC5-98CFA71FE9EA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
