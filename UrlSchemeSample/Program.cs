@@ -16,6 +16,10 @@ namespace UrlSchemeSample
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            var args = "";
+            if (Environment.GetCommandLineArgs().Length > 1)
+                args = Environment.GetCommandLineArgs()[1];
+            MessageBox.Show($"You can decide what to do with the arguments:\n{args}");
             Application.Run(new Form1());
         }
     }
