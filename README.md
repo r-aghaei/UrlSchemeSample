@@ -9,7 +9,7 @@ The sample contains 2 projects:
 * A Windows Forms Application that will be installed and will run when a link of "myapp:" protocole is clicked.
 * A Visual Studio Setup Project which installs the application and also setup registery settings to let the windows application handle "myapp:" protocole.
 
-## How it works?
+## How does it work?
 I suppose you want to create `myapp` url scheme and having an application in `c:\myapp.exe` which you want to handle the url scheme with your application. Then you should create these keys and values in registry/l
 
 
